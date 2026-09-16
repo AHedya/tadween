@@ -4,7 +4,7 @@
 
 Transcription, diarization, and summarization — decomposed into swappable, production-ready stages instead of one brittle, single-process script.
 
-**Status:** 🚧 In Development — [Try the interactive preview on hedya.dev →](https://hedya.dev)
+**Status:** 🚧 In Development — [Try the interactive preview on hedya.dev](https://hedya.dev#tadween)
 
 ---
 
