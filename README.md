@@ -4,7 +4,7 @@
 
 Transcription, diarization, and summarization — decomposed into swappable, production-ready stages instead of one brittle, single-process script.
 
-**Status:** 🚧 In Development — [Try the interactive preview on hedya.dev →](https://hedya.dev)
+**Status:** 🚧 In Development — [Try the interactive preview on hedya.dev →](https://hedya.dev#tadween)
 
 ---
 
@@ -73,7 +73,7 @@ A production wrapper around WhisperX-style transcription and pyannote-based spea
 
 The full ecosystem isn't hosted as a public service yet, but you can see a live action via the interactive proof-of-concept on hedya.dev:
 
-**[→ Launch the Tadween interactive preview](https://hedya.dev)**
+**[→ Launch the Tadween interactive preview](https://hedya.dev#tadween)**
 
 This is a simulation of the pipeline architecture and speaker separation for demonstration purposes — full production hosting is on the roadmap below.
 
