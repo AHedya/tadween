@@ -4,7 +4,7 @@
 
 Transcription, diarization, and summarization — decomposed into swappable, production-ready stages instead of one brittle, single-process script.
 
-**Status:** 🚧 In Development — [Try the interactive preview on hedya.dev →](https://hedya.dev#tadween)
+**Status:** 🚧 In Development — [Try the interactive preview on hedya.dev](https://hedya.dev#tadween)
 
 ---
 
@@ -14,6 +14,7 @@ Most speech-intelligence pipelines are built as a single monolithic script: load
 
 Tadween exists to fix that. It treats each stage of the ASR pipeline as an independently deployable, vendor-agnostic unit, orchestrated through a DAG engine designed for exactly the failure modes that sink naive pipelines: OOM under heavy inference load, unbounded queues, and tight coupling to a single model provider.
 
+```
 Media Input
        │
        ▼
@@ -27,6 +28,7 @@ Media Input
        │
        ▼
 [ Summarization ]  ─── Context structuring, topic synthesis, and LLM extraction
+```
 
 Every arrow above is a swappable boundary — not a hardcoded call.
 
@@ -73,7 +75,7 @@ A production wrapper around WhisperX-style transcription and pyannote-based spea
 
 The full ecosystem isn't hosted as a public service yet, but you can see a live action via the interactive proof-of-concept on hedya.dev:
 
-**[→ Launch the Tadween interactive preview](https://hedya.dev#tadween)**
+**[→ Launch the Tadween interactive preview](https://hedya.dev)**
 
 This is a simulation of the pipeline architecture and speaker separation for demonstration purposes — full production hosting is on the roadmap below.
 
